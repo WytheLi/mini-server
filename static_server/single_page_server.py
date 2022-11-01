@@ -3,7 +3,7 @@ import socket
 import time
 
 
-def client_handler(client_socket):
+def request_handler(client_socket):
     """
         处理客户端请求
     :param client_socket:
